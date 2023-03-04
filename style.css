@@ -1,3 +1,69 @@
 body {
-    background: blue;
-}
+    background-image: url("coding.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #hey {
+    font-size: 3em;
+    color: #40e04a;
+    font-style: italic;
+    margin-bottom: 10px; /* Add margin bottom to separate from nav */
+  }
+  
+  #fullName {
+    font-size: 4em;
+    color: #22c134;
+    margin-top: 0; /* Remove margin top to align with #hey */
+  }
+  
+  nav {
+    padding: 20px;
+    position: fixed; /* Position fixed to the top of the page */
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  .nav-item a:hover {
+    background-color: #2a16df;
+    color: #fff;
+  }
+  
+  #wisdom {
+    color: rgb(245, 245, 179);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+  }
+  
